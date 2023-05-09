@@ -1,0 +1,14 @@
+header{
+    min-width: 60px;
+    background-color: palevioletred;
+}
+
+header img{
+    width: 150px;
+    height: 150px;
+    float: left;
+}
+
+header h1{
+    text-align: center;
+}
