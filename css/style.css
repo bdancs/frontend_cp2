@@ -2,39 +2,31 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-}
-
-body{
-    background-color: rgba(251, 255, 24, 0.384);
     font-family: Arial, Helvetica, sans-serif;
 }
 
 header{
-    min-height: 80px;
-    padding: 20px;
-    background-color: rgba(31, 31, 231, 0.432);
-}
-
-header img{
-    width: 125px;
-    height: 125px;
-    float: left;
-    position: absolute;
+    min-height: 100px;
+    padding: 10px;
+    background-color: lightskyblue;
 }
 
 header h1{
-    clear: none;
+    color: aliceblue;
     text-align: center;
-    text-decoration: none;
-    font-size: 30px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#cachorro{
+    min-height: 5%;
+    min-width: 5%;
+    max-height: 20%;
+    max-width: 20%;
 }
 
 nav{
-    min-height: 40px;
-    background-color: rgba(31, 31, 231, 0.623);
-    padding: 20px;
-    clear: none;
+    min-height: 60px;
+    background-color:cornflowerblue;
+    padding: 15px;
 }
 
 nav ul{
@@ -47,118 +39,82 @@ nav ul li{
 }
 
 nav ul li a{
-    color: beige;
-    padding: 10px 20px;
+    color: azure;
     text-decoration: none;
     font-size: 1.5em;
+    display: inline-block;
+    padding: 10px 20px;
 }
 
 nav ul li a:hover{
     background-color: #ffffff99;
-    border-radius: 7px;
-}
-
-.principal{
-    border: 4px solid black;
-    background-color: rgba(31, 31, 231, 0.432);
-    min-height: 60%;
-    min-width: 70%;
-    padding: 1%;
-    margin: 1%;
-    box-sizing: border-box;
-    overflow: auto;
-}
-
-main div h2{
-    text-decoration: underline;
-    text-align: center;
+    border-radius: 8px;
 }
 
 .colunas{
-    min-width: 48%;
-    min-height: 80%;
-    box-sizing: border-box;
-    padding: 0.5%;
-    display: inline-block;
-    margin: 0.5%;
-}
-
-p{
-    text-align: justify;
-}
-
-#dicao{
-    text-align: left;
-}
-
-#doguinho{
-    float: right;
-}
-
-#roupas div ul li{
-    list-style: none;
+    width: 100%;
+    height: 100%;
+    float: left;
+    background-color: lightsteelblue;
     border: 2px solid black;
-    border-radius: 5px;
-    min-width: 256px;
-    min-height: 284px;
-    text-align: center;
-    padding: 10px;
-    margin: 0px 150px 0px 150px;
-    clear: none;
 }
 
-#roupas div ul li:hover{
-    border: 4px solid #ffffff99;
-}
-
-#roupas div ul li img{
-    width: 150px;
-    height: 150px;
-}
-
-.preço{
-    font-weight: bold;
-}
-
-.promo{
-    text-decoration: line-through red 3px;
-    font-weight: bold;
-}
-
-#promocao div ul li img{
-    width: 150px;
-    height: 150px;
-}
-
-#promocao div ul li{
-    list-style: none;
-    border: 2px solid black;
-    border-radius: 5px;
-    text-align: center;
-    padding: 10px;
-    margin: 30px 150px 30px 150px;
+.primeira{
+    max-width: 50%;
+    max-height: 50%;
+    float: left;
     overflow: auto;
 }
-
-#promocao div ul li:hover{
-    border: 4px solid #ffffff99;
-    margin: 30px 150px 30px 150px;
+.segunda{
+    max-width: 50%;
+    max-height: 50%;
+    float: right;
+}
+#imgdog{
+    min-width: 50%;
+    min-height: 50%;
+    max-width: 70%;
+    max-height: 70%;
+    margin: 20% 10% 20% 10%;
 }
 
-footer{
-    min-height: 90px;
-    background-color: rgba(31, 31, 231, 0.623);
-    clear: none;
-    width: 100%;
-}
-
-footer p{
-    color: rgb(43, 24, 7);
-    text-align: center;
-    font-family: Arial, Helvetica, sans-serif;
+.imgs{
+    list-style: none;
+    min-width: 100px;
+    min-height: 100px;
+    max-width: 200px;
+    max-height: 200px;
+    border: 3px solid #ffffff99;
     padding: 10px;
+    border-radius: 10px;
 }
 
 .titulo{
+    text-align: center;
     text-decoration: underline;
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.titulo2{
+    text-decoration: underline;
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+ul{
+    list-style: none;
+}
+
+footer{
+    min-height: 80px;
+    background-color: darkslategrey;
+    clear: both;
+}
+
+
+footer p{
+    color: white;
+    text-align: center;
+    font-size: 1.3em;
+    padding: 20px;
 }
