@@ -7,7 +7,6 @@
 body{
     background-color: rgba(251, 255, 24, 0.384);
     font-family: Arial, Helvetica, sans-serif;
-    overflow-x: hidden;
 }
 
 header{
@@ -62,11 +61,12 @@ nav ul li a:hover{
 .principal{
     border: 4px solid black;
     background-color: rgba(31, 31, 231, 0.432);
-    width: 98%;
     min-height: 60%;
-    padding: 20px;
-    margin: 10px;
+    min-width: 70%;
+    padding: 1%;
+    margin: 1%;
     box-sizing: border-box;
+    overflow: auto;
 }
 
 main div h2{
@@ -75,12 +75,12 @@ main div h2{
 }
 
 .colunas{
-    width: 49%;
-    height: 80%;
+    min-width: 48%;
+    min-height: 80%;
     box-sizing: border-box;
-    padding: 20px;
+    padding: 0.5%;
     display: inline-block;
-    margin: 5px;
+    margin: 0.5%;
 }
 
 p{
@@ -91,30 +91,58 @@ p{
     text-align: left;
 }
 
+#doguinho{
+    float: right;
+}
+
 #roupas div ul li{
     list-style: none;
     border: 2px solid black;
     border-radius: 5px;
+    min-width: 256px;
+    min-height: 284px;
     text-align: center;
     padding: 10px;
+    margin: 0px 150px 0px 150px;
+    clear: none;
 }
 
-#acess{
-    padding-top: 50px;
+#roupas div ul li:hover{
+    border: 4px solid #ffffff99;
 }
 
-.produtos{
+#roupas div ul li img{
     width: 150px;
     height: 150px;
-    border-radius: 2px;
 }
 
 .preço{
     font-weight: bold;
 }
 
-#avisinhos{
-    text-align: right;
+.promo{
+    text-decoration: line-through red 3px;
+    font-weight: bold;
+}
+
+#promocao div ul li img{
+    width: 150px;
+    height: 150px;
+}
+
+#promocao div ul li{
+    list-style: none;
+    border: 2px solid black;
+    border-radius: 5px;
+    text-align: center;
+    padding: 10px;
+    margin: 30px 150px 30px 150px;
+    overflow: auto;
+}
+
+#promocao div ul li:hover{
+    border: 4px solid #ffffff99;
+    margin: 30px 150px 30px 150px;
 }
 
 footer{
