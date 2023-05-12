@@ -57,18 +57,37 @@ nav ul li a:hover{
     border-radius: 7px;
 }
 
-main div{
+.principal{
     border: 4px solid black;
     background-color: paleturquoise;
     width: 100%;
-    height: 200px;
+    min-height: 60%;
     padding: 20px;
     margin: 10px;
     box-sizing: border-box;
+    overflow: scroll;
 }
 
 main div h2{
     text-decoration: underline;
+}
+
+.colunas{
+    width: 45%;
+    height: 80%;
+    box-sizing: border-box;
+    padding: 20px;
+    display: inline-block;
+    margin: 5px;
+}
+
+.produtos{
+    width: 100px;
+    height: 100px;
+}
+
+.preço{
+    font-weight: bold;
 }
 
 footer{
