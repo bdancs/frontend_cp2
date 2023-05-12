@@ -65,7 +65,7 @@ nav ul li a:hover{
     padding: 20px;
     margin: 10px;
     box-sizing: border-box;
-    overflow: scroll;
+    /* overflow: scroll; */
 }
 
 main div h2{
