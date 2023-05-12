@@ -7,6 +7,7 @@
 body{
     background-color: rgba(251, 255, 24, 0.384);
     font-family: Arial, Helvetica, sans-serif;
+    overflow-x: hidden;
 }
 
 header{
@@ -60,21 +61,21 @@ nav ul li a:hover{
 
 .principal{
     border: 4px solid black;
-    background-color: paleturquoise;
-    width: 100%;
+    background-color: rgba(31, 31, 231, 0.432);
+    width: 98%;
     min-height: 60%;
     padding: 20px;
     margin: 10px;
     box-sizing: border-box;
-    /* overflow: scroll; */
 }
 
 main div h2{
     text-decoration: underline;
+    text-align: center;
 }
 
 .colunas{
-    width: 45%;
+    width: 49%;
     height: 80%;
     box-sizing: border-box;
     padding: 20px;
@@ -82,9 +83,30 @@ main div h2{
     margin: 5px;
 }
 
+p{
+    text-align: justify;
+}
+
+#dicao{
+    text-align: left;
+}
+
+#roupas div ul li{
+    list-style: none;
+    border: 2px solid black;
+    border-radius: 5px;
+    text-align: center;
+    padding: 10px;
+}
+
+#acess{
+    padding-top: 50px;
+}
+
 .produtos{
-    width: 100px;
-    height: 100px;
+    width: 150px;
+    height: 150px;
+    border-radius: 2px;
 }
 
 .preço{
