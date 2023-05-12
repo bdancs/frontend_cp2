@@ -6,6 +6,7 @@
 
 body{
     background-color: rgba(251, 255, 24, 0.384);
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 header{
@@ -26,7 +27,7 @@ header h1{
     text-align: center;
     text-decoration: none;
     font-size: 30px;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 nav{
@@ -88,6 +89,10 @@ main div h2{
 
 .preço{
     font-weight: bold;
+}
+
+#avisinhos{
+    text-align: right;
 }
 
 footer{
