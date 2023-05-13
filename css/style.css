@@ -13,14 +13,12 @@ header{
     min-height: 20%;
     padding: 20px;
     background-color: rgba(31, 31, 231, 0.432);
+    width: 100%;
 }
 
 header div img{
-    width: 200px;
-    height: 200px;
-    justify-content: first baseline;
-    /* float: left; */
-    /* position: absolute; */
+    width: 15%;
+    float: left;
 }
 
 header h1{
@@ -86,7 +84,6 @@ main section h2{
     margin: 0.5%;
 }
 
-
 #dica div p{
     text-align: justify;
     min-width: 30%;
@@ -99,24 +96,19 @@ main section h2{
 }
 
 #diquinha{
-    max-width: 46%;
-    float: left;
+    max-width: 48%;
+    /* float: left; */
 }
-
-/* #doguinho{
-    max-width: 46%;
-    float: right;
-} */
 
 #doguinho{
     max-width: 48%;
     text-align: center;
+    clear: none;
 }
 
 #doguinho img{
-    width: 450px; 
-    height: 200px;
-    float: right;
+    width: 95%;
+    /* float: right; */
 }
 
 .preço{
@@ -155,7 +147,7 @@ main section h2{
     min-height: 20%;
     text-align: center;
     padding: 10px;
-    margin: 0px 150px 0px 150px;
+    margin: 0pc 150px 0px 150px;
     clear: none;
 }
 
