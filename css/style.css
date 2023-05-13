@@ -15,9 +15,10 @@ header{
     background-color: rgba(31, 31, 231, 0.432);
 }
 
-header img{
+header div img{
     width: 200px;
     height: 200px;
+    justify-content: first baseline;
     /* float: left; */
     /* position: absolute; */
 }
